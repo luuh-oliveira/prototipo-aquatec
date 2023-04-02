@@ -1,0 +1,108 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.header {
+    background-color: black;
+    border-bottom: 3px solid #32B9CD;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.titulo {
+    color: #32B9CD;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar a, .navbar li {
+    color: #E3B062;
+    text-decoration: none;
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url(../assets/img/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.banner .container {
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner p {
+    width: 280px;
+    font-size: 36px;
+}
+
+.banner .container span {
+    font-weight: bold;
+}
+
+/* MISSÃO, VISÃO E VALORES */
+
+.social {
+    background-color: #E5E5E5;
+}
+
+.boxes {
+    display: flex;
+    gap: 10%;
+    padding: 50px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.box img {
+    width: 170px;
+}
+
+.box h4 {
+    color: #CE477F;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #32B9CD;
+    color: white;
+}
+
+.footer .container {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
